@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="h1">Mahsulot Katalogi</h1>
+    <div class="filters">
+        <select id="categoryFilter">
+            <option value="all">Barcha Kategoriyalar</option>
+            <option value="electronics">Electronics</option>
+            <option value="jewelery">Jewelery</option>
+            <option value="men's clothing">Men's Clothing</option>
+            <option value="women's clothing">Women's Clothing</option>
+        </select>
+        <select id="sortFilter">
+            <option value="default">Narx bo'yicha saralash</option>
+            <option value="desc">Qimmatdan arzon</option>
+            <option value="asc">Arzondan qimmat</option>
+        </select>
+        <input type="text" id="searchInput" placeholder="Mahsulot qidirish...">
+    </div>
+    <div class="kartochki"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
